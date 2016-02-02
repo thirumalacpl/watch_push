@@ -16,7 +16,6 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- alert('indexa.js');
 var app = {
     // Application Constructor
     initialize: function() {
@@ -52,8 +51,7 @@ var app = {
         	console.log("notification event");
             console.log(JSON.stringify(data));
             var cards = document.getElementById("cards");
-            var card ='<h>'+data.title+'</h>'+'<br>'+'<p>'+data.message +'</p>';
-        /*    var card = '<div class="row">' +
+            var card = '<div class="row">' +
 		  		  '<div class="col s12 m6">' +
 				  '  <div class="card darken-1">' +
 				  '    <div class="card-content black-text">' +
@@ -62,7 +60,7 @@ var app = {
 				  '    </div>' +
 				  '  </div>' +
 				  ' </div>' +
-				  '</div>';*/
+				  '</div>';
             cards.innerHTML += card;
             
             push.finish(function () {
