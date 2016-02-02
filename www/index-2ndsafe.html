@@ -6,8 +6,7 @@
 
 <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-<script type="text/javascript" src="cordova.js"></script>
- <script type="text/javascript" src="js/indexa.js"></script>
+
    <script src="js/jquery.mobile.min.js"></script>
 	   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>
@@ -17,22 +16,6 @@
      <script src="js/jquery-1.10.2.min.js"></script> -->
  
     <script src="js/jquery.mobile-1.4.5.min.js"></script>
-
-<!--Icon-->
-    <link rel="stylesheet" href="material-design-iconic-font/css/material-design-iconic-font.css" />
-      <link rel="stylesheet" href="material-design-iconic-font/css/material-design-iconic-font.min.css" />
-
-      <link rel="stylesheet" href="material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot" />
-      <link rel="stylesheet" href="material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg" />
-       <link rel="stylesheet" href="material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf" />
-       <link rel="stylesheet" href="material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff" />
-       <link rel="stylesheet" href="material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2" />
-      
-   
-   
-<!--Icon-->
-
-
 
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
 	<link rel="stylesheet" href="css/jquery.mobile.min.css" />
@@ -214,7 +197,7 @@ a.control_next {
 
 
 
-   <div class="col-xs-12 col-sm-6 col-md-4  left-right">
+   <div class="col-xs-12 col-sm-6 col-md-4">
      <form method="post" action="" style="margin-top: 30px;" id="check-watchuser"> 
             <div class="box" style="margin-top: 25px;">
 
@@ -223,8 +206,7 @@ a.control_next {
         <!--<label class="control-label visible-ie8 visible-ie9">Username</label>-->
         <div class="controls">
           <div class="input-icon left">
-          <!--   <i class=""><img src="images/user-icon.png" class="usic" alt=""></i> -->
-          <i class="zmdi zmdi-account  usic "></i>
+            <i class=""><img src="images/user-icon.png" class="usic" alt=""></i>
             <input class="input_text" type="text" autocomplete="off" placeholder="Username" name="username" id="username">
           </div>
         </div>
@@ -235,14 +217,11 @@ a.control_next {
         <!--<label class="control-label visible-ie8 visible-ie9">Password</label>-->
         <div class="controls">
           <div class="input-icon left">
-           <!--  <i class="icon-lock"><img src="images/pass-icon.png" class="paic" alt=""></i> -->
-           <i class="zmdi zmdi-key paic"></i>
+            <i class="icon-lock"><img src="images/pass-icon.png" class="paic" alt=""></i>
             <input class="input_text" type="password" autocomplete="off" placeholder="********" name="password" id="password">
           </div>
         </div>
       </div>
-
-      <div style="clear:both">&nbsp;</div>
 
                <div class="ui-grid-b" style="margin-top: 30px;">
                  <div class="ui-block-a" style="width:15% !important;">
@@ -257,180 +236,12 @@ a.control_next {
             </div>
 
 
- <div class="ui-grid-solo">
-      <div class="ui-block-a rece">
-      <a href="" class="resetpas" id="resetonepage" >RESET PASSWORD</a>
-      <br>
-       <!-- <a href="index-man.html" class="resetpas" >User Manual</a> -->
-      </div>
-  </div>
-
- <div class="ui-grid-solo">
-      <div class="ui-block-a ">
-<nav>
-          <div class="nav-wrapper">
-                <a href="#" class="brand-logo">Fourthforce Push Device ID asdfdas</a>
-        </div>
-    </nav>
-
-    <div class="row">
-      <div class="col s12 m6">
-        <div class="card darken-1">
-          <div class="card-content black-text">
-            <span class="card-title black-text">Registration ID</span>
-            <p id="regId">Requested</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div id="cards"></div>
-</div>
-</div>
-
-
   </div>
 </div> 
 
 
 
-<!--cHANGE PASSWORD-->
-
- <div data-role="page" id="changepass" class="bg">
-  
-<script type="text/javascript" src="js/chngpass.js"></script>
-  <div data-role="main" class="ui-content">
-   <div style="text-align:center;margin-top: 100px;"><img src="images/logo.png"></div>
-
-     <!-- <input class="input_text" type="text" autocomplete="off" placeholder="current password" name="username" id="username"> -->
-<div style="clear:both">&nbsp;</div>
-
-   <div class="col-xs-12 col-sm-6 col-md-4 left-right" >
-     <form method="post" action="" style="margin-top: 30px;" id="check_userpass"> 
-            <div class="box" style="margin-top: 25px;">
-
- <div class="control-group" style="border-bottom: 1px solid rgba(151, 151, 151, 0.58);margin-bottom: 13px;">
-        <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
-        <!--<label class="control-label visible-ie8 visible-ie9">Username</label>-->
-        <div class="controls">
-          <div class="input-icon left">
-           <!--  <i class=""><img src="images/user-icon.png" class="usic" alt=""></i> -->
-            <i class="zmdi zmdi-account usic"></i>
-            <input class="input_text" type="text" autocomplete="off" placeholder="Username" name="userchn" id="userchn">
-          </div>
-        </div>
-      </div> 
-
-<div class="control-group" style="border-bottom: 1px solid rgba(151, 151, 151, 0.58);margin-bottom: 13px;">
-        <!--<label class="control-label visible-ie8 visible-ie9">Password</label>-->
-        <div class="controls">
-          <div class="input-icon left">
-           <!--  <i class="icon-lock"><img src="images/pass-icon.png" class="paic" alt=""></i> -->
-           <i class="zmdi zmdi-key paic"></i>
-            <input class="input_text" type="password" autocomplete="off" placeholder="********" name="chngpassword" id="chngpassword">
-          </div>
-        </div>
-      </div>
-
-<div style="clear:both">&nbsp;</div>
-    
-               <div class="ui-grid-b" style="margin-top: 30px;">
-                 <div class="ui-block-a" style="width:15% !important;">
-                 <br>
-                 </div>
-                 <div class="ui-block-b" style="width:70% !important;"><a href="#" class="ui-btn ui-corner-all ui-shadow logbutton sign_in" id="next"> Next</a></div>
-                 <div class="ui-block-c" style="width:15% !important;"></div>
-                 </div>
-
-              </div>
-              </form>
-            </div>
-
- <div class="ui-grid-solo"> 
-      <div class="ui-block-a rece">
-      <a href="" class="resetpas" id="backtopageone">Cancel</a>
-      </div>
-  </div>
-
-  </div>
-</div>
-
-
-<!--2 CHANGE END->
-
-
-
-
-
-
-
-
-
-<!-changepass one end-->
-
-   <div data-role="page" id="changepasstwo" class="bg">
-  
-<script type="text/javascript" src="js/changepasstwo.js"></script>
-  <div data-role="main" class="ui-content">
-   <div style="text-align:center;margin-top: 100px;"><img src="images/logo.png"></div>
-
-     <!-- <input class="input_text" type="text" autocomplete="off" placeholder="current password" name="username" id="username"> -->
-<div style="clear:both">&nbsp;</div>
-
-   <div class="col-xs-12 col-sm-6 col-md-4 left-right ">
-     <form method="post" action="" style="margin-top: 30px;" id="check_finalchange"> 
-            <div class="box" style="margin-top: 25px;">
-
-         <div class="control-group" style="border-bottom: 1px solid rgba(151, 151, 151, 0.58);margin-bottom: 13px;">
-        <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
-        <!--<label class="control-label visible-ie8 visible-ie9">Username</label>-->
-        <div class="controls">
-          <div class="input-icon left">
-           <!--  <i class=""><img src="images/user-icon.png" class="usic" alt=""></i> -->
-            <i class="zmdi zmdi-account usic"></i>
-            <input class="input_text" type="text" autocomplete="off" placeholder="New password" name="ppassword" id="ppassword">
-          </div>
-        </div>
-      </div>  
-
-                     
-<div class="control-group" style="border-bottom: 1px solid rgba(151, 151, 151, 0.58);margin-bottom: 13px;">
-        <!--<label class="control-label visible-ie8 visible-ie9">Password</label>-->
-        <div class="controls">
-          <div class="input-icon left">
-            <!-- <i class="icon-lock"><img src="images/pass-icon.png" class="paic" alt=""></i> -->
-            <i class="zmdi zmdi-key paic "></i>
-            <input class="input_text" type="text" autocomplete="off" placeholder="Re-Type new password" name="reppassword" id="reppassword">
-          </div>
-        </div>
-      </div>
-
-               <div class="ui-grid-b" style="margin-top: 30px;">
-                 <div class="ui-block-a" style="width:15% !important;">
-                 <br>
-                 </div>
-                 <div class="ui-block-b" style="width:70% !important;"><a href="#" class="ui-btn ui-corner-all ui-shadow logbutton sign_in" id="chngpassfinal">Reset Password</a></div>
-                 <div class="ui-block-c" style="width:15% !important;"></div>
-                 </div>
-
-              </div>
-              </form>
-            </div>
-
- <div class="ui-grid-solo">
-      <div class="ui-block-a">
-      <a href="#" class="ui-btn cancel-btn" id="sescan" >Cancel</a>
-      </div>
-  </div>
-
-  </div>
-</div> 
-
-
-<!--changepass one end-->
-
-
-
+<!--page one end-->
 
 
 
@@ -6204,13 +6015,6 @@ $(document).on('pageshow', '#pagedesign', function(){
          </div>
 
 <div data-role="main" class="ui-content">
-
-
-      <div class="reportr">
-      <div class="hhh"></div>
-      <p class="ppp"></p>
-
-      </div>
 
 
 <div class="sliderbc" >
